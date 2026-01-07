@@ -6,13 +6,13 @@ A **terminal-based habit tracker** built in Python that helps users build small 
 
 ## Project Concept
 
-Building habits can be challenging, especially when motivation fluctuates day-to-day. I wanted to create a **simple tool that encourages consistency**, tracks progress, and provides positive reinforcement.
+Building habits can be challenging, especially when motivation fluctuates day-to-day. I wanted to create a simple tool that encourages consistency and tracks progress.
 
 This project explores:
 
 * **Input validation**: Ensuring users provide meaningful responses (`Y`/`N`).
 * **Gamification**: Rewarding users with streaks, points, and bonus points for consecutive completions.
-* **Persistence**: Saving user progress across sessions using JSON, allowing streaks and points to carry over each day.
+* **Data Storage**: Saving user progress across sessions using JSON, allowing streaks and points to carry over each day.
 * **Personalization**: The program greets the user by name, tracks a habit of their choice, and provides randomized motivational messages.
 * **User control**: Users can choose to restart their habit builder and reset their progress at any time.
 
@@ -108,10 +108,6 @@ This project allowed me to explore:
 * Structured data storage (JSON) and safe file handling
 * Input validation and loops for robust user interaction
 * Basic gamification mechanics for motivation
-* Designing a **user-centered experience** in a terminal application
-* Translating a real-life problem (habit formation) into a **working software solution**
+* Designing a user-centered experience in a terminal application
+* Translating a real-life problem (habit formation) into a working software solution
 
----
-
-**Takeaway:**
-This project is more than a habit tracker — it’s a demonstration of **thoughtful design, persistence, and problem-solving skills**, all using Python’s built-in libraries.
