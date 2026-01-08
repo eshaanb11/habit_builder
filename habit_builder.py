@@ -60,7 +60,7 @@ else:
     
     
 if last_date == today:
-    print("You've already checked in today. Come back tomorrow!")
+    print("\nYou've already checked in today. Come back tomorrow!")
     exit()
 
 while True:
@@ -73,7 +73,7 @@ while True:
 
 success_messages = [
     "Great job! Keep the momentum going!",
-    "Another step forward!.",
+    "Another step forward!",
     "Consistency beats motivation. Well done!",
     "Proud of you. This is how habits stick."
 ]
